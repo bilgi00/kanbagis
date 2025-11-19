@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kanbagisc.com/sitemap.xml
+
+# Disallow sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/keys/
+
+# Allow important pages
+Allow: /
+Allow: /blood-requests
+Allow: /hospitals
+Allow: /blood-compatibility
+Allow: /about
+Allow: /contact
+
+# Crawl delay (optional)
+Crawl-delay: 1

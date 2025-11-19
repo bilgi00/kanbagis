@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776327766923",
+    "project_id": "kanbagis-9b3e9",
+    "storage_bucket": "kanbagis-9b3e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776327766923:android:4a8a2cc645464995c7458e",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHWWEQ-qeheNorP-MvnQclP-DflR8P7ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

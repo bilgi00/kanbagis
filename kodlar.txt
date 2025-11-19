@@ -1,0 +1,178 @@
+Komut	Açıklama
+flutter doctor	Kurulumun eksiksiz olup olmadığını kontrol eder.
+flutter create proje_adi	Yeni bir Flutter projesi oluşturur.
+flutter run	Uygulamayı bağlı cihazda veya emülatörde çalıştırır.
+flutter build apk	Android için APK dosyası oluşturur.
+
+flutter build appbundle	Google Play için AAB (App Bundle) dosyası üretir.
+flutter build ios	iOS için derleme yapar (Mac gerekir).
+flutter clean	Derleme önbelleğini temizler, hataları çözmede işe yarar.
+flutter pub get	pubspec.yaml dosyasındaki bağımlılıkları indirir.
+flutter pub upgrade	Paketleri en son sürüme günceller.
+flutter pub add paket_adi	Belirli bir paketi projeye ekler (örnek: flutter pub add http).
+flutter pub remove paket_adi	Paketi projeden kaldırır.
+flutter devices	Bağlı cihazları listeler.
+flutter analyze	Koddaki hataları ve uyarıları analiz eder.
+flutter test	Test dosyalarını çalıştırır.
+flutter logs	Uygulama çalışırken log’ları gösterir.
+flutter upgrade	Flutter SDK’yı günceller.
+
+
+5338585656
+
+flutter emulators              # Emülatörleri listele
+flutter emulators --launch    # Emülatör başlat
+flutter devices               # Cihazları görüntüle
+flutter run -d emulator-5554  # Uygulamayı çalıştır
+
+
+code --list-extensions
+
+flutter clean
+flutter pub get
+flutter run -d chrome --web-port=8080
+
+flutter run -d web-server --web-hostname=localhost --web-port=3000
+
+========================================
+📱 KAN BAŞI UYGULAMA KULLANIM REHBERİ
+========================================
+
+🚀 TEMEL MENÜLER:
+
+1. 🏠 ANA EKRAN (Dashboard)
+   ├── 🆘 Acil Kan Talebi Oluştur
+   ├── 🩸 Aktif Kan Talepleri
+   ├── 🏥 Hastane Rehberi
+   ├── 📊 Kan Uyumluluk Tablosu
+   ├── 📱 QR Kod İşlemleri
+   └── 📈 Bağış Geçmişi
+
+2. ☰ ANA MENÜ (Hamburger Menu)
+   ├── 🏠 Ana Sayfa
+   ├── 🩸 Kan Talepleri
+   │   ├── Aktif Talepler
+   │   ├── Geçmiş Talepler
+   │   └── Yeni Talep Oluştur
+   ├── 🏥 Hastaneler
+   │   ├── Hastane Listesi
+   │   ├── Bölgesel Filtreleme
+   │   └── Yeni Hastane Ekle (Kayıtlı Kullanıcı)
+   ├── 📊 Kan Uyumluluk Tablosu
+   ├── 📱 QR Kod İşlemleri
+   ├── 📈 Bağış Geçmişi
+   ├── ⚙️ Ayarlar
+   ├── ❓ Yardım
+   └── 🚪 Çıkış Yap
+
+3. 🔔 BİLDİRİM MENÜSÜ
+   ├── 🔴 Acil kan talepleri
+   ├── 🟠 Size uygun talepler
+   ├── ✅ Talep durumu güncellemeleri
+   └── 📊 Haftalık özet
+
+4. 👤 PROFİL MENÜSÜ
+   ├── 📝 Profili Düzenle
+   ├── 🩸 Kan Grubu Bilgisi
+   ├── 📍 Konum Ayarları
+   ├── ⭐ Başarım Rozetleri
+   ├── ⚙️ Hesap Ayarları
+   └── 🚪 Çıkış Yap
+
+🔑 TEMEL KULLANIM:
+
+1. KAYIT OLMA:
+   ├── Ad/Soyad/Telefon bilgisi
+   ├── Kan grubu seçimi (A+, A-, B+, B-, AB+, AB-, O+, O-)
+   ├── Bölge/İl/İlçe seçimi
+   ├── Kan verebilme durumu
+   └── Güvenli şifre oluşturma
+
+2. KAN TALEBİ OLUŞTURMA:
+   ├── Hasta bilgileri (Ad, kan grubu)
+   ├── Aciliyet seviyesi (🔴 Acil, 🟠 Orta, 🟢 Normal)
+   ├── Hastane seçimi (şehir bazlı filtreleme)
+   ├── İletişim bilgileri
+   └── Açıklama ve detaylar
+
+3. KAN TALEBİNE YANIT VERME:
+   ├── Talep detaylarını görüntüleme
+   ├── Hastane ile iletişim kurma (📞 Direkt arama)
+   ├── Konum bilgisini görüntüleme (🗺️ Harita)
+   └── Talebi paylaşma (📱 Sosyal medya)
+
+4. QR KOD İŞLEMLERİ:
+   ├── 📷 QR kod tarama
+   ├── 🔗 Kan talebi QR kodu oluşturma
+   ├── 👤 Profil QR kodu oluşturma
+   └── 📤 QR kod paylaşımı
+
+🩸 KAN GRUBU UYUMLULUK:
+
+VERİCİ → ALICİ:
+├── O- → TÜM KAN GRUPLARI (Evrensel verici)
+├── O+ → A+, B+, AB+, O+
+├── A- → A+, A-, AB+, AB-
+├── A+ → A+, AB+
+├── B- → B+, B-, AB+, AB-
+├── B+ → B+, AB+
+├── AB- → AB+, AB-
+└── AB+ → AB+ (Evrensel alıcı)
+
+⚙️ AYARLAR MENÜSÜ:
+
+1. 👤 HESAP AYARLARI:
+   ├── Profil bilgileri düzenleme
+   ├── Kan grubu güncelleme
+   ├── Konum ayarları
+   └── Şifre değiştirme
+
+2. 🔔 BİLDİRİM AYARLARI:
+   ├── Acil kan talepleri ✅
+   ├── Bağış hatırlatıcıları ✅
+   ├── Haftalık özet ✅
+   └── Genel bildirimler ✅
+
+3. 🔒 GİZLİLİK AYARLARI:
+   ├── Profil görünürlüğü
+   ├── Telefon paylaşımı
+   ├── Konum paylaşımı
+   └── Email bildirimleri
+
+🆘 ACİL DURUMLAR:
+
+HIZLI ERİŞİM NUMARALARI:
+├── 🚨 112 - Acil Servis
+├── 🩸 168 - Türk Kızılayı
+├── 🏥 444-0-168 - Kan Bankası
+└── 📱 Uygulama içi acil talep butonu
+
+📊 BAŞARIM SİSTEMİ:
+
+ROZETLERİ:
+├── 🥉 İlk Bağış - İlk kan bağışı
+├── 🥈 Gümüş Bağışçı - 3 kan bağışı
+├── 🥇 Altın Bağışçı - 5 kan bağışı
+├── 💎 Platin Bağışçı - 10 kan bağışı
+├── 🌟 Elmas Bağışçı - 20 kan bağışı
+└── 👑 Efsane Bağışçı - 50 kan bağışı
+
+📱 PLATFORM DESTEĞİ:
+├── ✅ Android (Birincil)
+├── ✅ Web (Progressive Web App)
+├── 🔄 iOS (Geliştirme aşamasında)
+└── 🔄 Desktop (Gelecek planlama)
+
+🔐 GÜVENLİK:
+├── Firebase Authentication
+├── Şifrelenmiş veri aktarımı
+├── KVKK uyumlu veri işleme
+└── Güvenli kimlik doğrulama
+
+📞 DESTEK:
+├── Email: destek@kanbasiapp.com
+├── WhatsApp: 0532-xxx-xxxx
+├── Web: www.kanbasiapp.com
+└── GitHub: github.com/kanbasiapp
+
+🎯 AMAÇ: Kan bağışı bilincini yaygınlaştırma ve acil kan ihtiyaçlarında hızlı çözüm sağlama

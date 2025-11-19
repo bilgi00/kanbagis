@@ -1,0 +1,53 @@
+{
+    "dart.flutterSdkPath": "C:\\Dev\\flutter",
+    "dart.sdkPath": "C:\\Dev\\flutter\\bin\\cache\\dart-sdk",
+    "dart.flutterSdkPaths": ["C:\\Dev\\flutter"],
+    "terminal.integrated.env.windows": {
+        "ANDROID_HOME": "C:\\Users\\TX120\\AppData\\Local\\Android\\Sdk",
+        "JAVA_HOME": "C:\\Program Files\\Android\\Android Studio\\jbr",
+        "PATH": "${env:PATH};C:\\Users\\TX120\\AppData\\Local\\Android\\Sdk\\emulator;C:\\Users\\TX120\\AppData\\Local\\Android\\Sdk\\platform-tools"
+    },
+    "dart.flutterCreateAndroidLanguage": "kotlin",
+    "dart.flutterCreateIOSLanguage": "swift",
+    
+    // Java/Gradle tamamen devre dışı
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.server.launchMode": "Standard",
+    "java.import.gradle.enabled": false,
+    "java.project.sourcePaths": [],
+    "java.project.outputPath": "",
+    
+    // Gradle Language Server tamamen kapalı
+    "gradle.nestedProjects": false,
+    "gradle.buildServer.enabled": false,
+    "gradle.daemon": false,
+    "gradle.wrapper.checksums": [],
+    "gradle.reuseTerminals": "off",
+    "gradle.focusTaskInExplorer": false,
+    "gradle.debug": false,
+    "gradle.autoDetect": "off",
+    "gradle.enableTasksView": false,
+    
+    // Gereksiz indexleme önleme
+    "search.exclude": {
+        "**/android/build": true,
+        "**/android/.gradle": true,
+        "**/build": true,
+        "**/.dart_tool": true,
+        "**/node_modules": true
+    },
+    "files.exclude": {
+        "**/android/build": true,
+        "**/android/.gradle": true,
+        "**/build": true,
+        "**/.dart_tool": true
+    },
+    "files.watcherExclude": {
+        "**/android/build/**": true,
+        "**/android/.gradle/**": true,
+        "**/build/**": true,
+        "**/.dart_tool/**": true
+    }
+}

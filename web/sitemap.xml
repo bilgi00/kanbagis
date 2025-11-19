@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Ana Sayfa -->
+    <url>
+        <loc>https://kanbagisc.com/</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Kan Talepleri -->
+    <url>
+        <loc>https://kanbagisc.com/#/blood-requests</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Hastaneler -->
+    <url>
+        <loc>https://kanbagisc.com/#/hospitals</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Kan Uyumluluğu -->
+    <url>
+        <loc>https://kanbagisc.com/#/blood-compatibility</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Kan Bağışı Kuralları -->
+    <url>
+        <loc>https://kanbagisc.com/#/donation-rules</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Hakkında -->
+    <url>
+        <loc>https://kanbagisc.com/#/about</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- İletişim -->
+    <url>
+        <loc>https://kanbagisc.com/#/contact</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>

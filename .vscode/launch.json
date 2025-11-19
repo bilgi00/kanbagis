@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "KAN BAŞI (Debug)",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [],
+            "env": {
+                "ANDROID_HOME": "C:\\Users\\TX120\\AppData\\Local\\Android\\Sdk"
+            }
+        },
+        {
+            "name": "KAN BAŞI (Release)",
+            "type": "dart", 
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": ["--release"],
+            "env": {
+                "ANDROID_HOME": "C:\\Users\\TX120\\AppData\\Local\\Android\\Sdk"
+            }
+        },
+        {
+            "name": "KAN BAŞI (Profile)",
+            "type": "dart",
+            "request": "launch", 
+            "program": "lib/main.dart",
+            "args": ["--profile"],
+            "env": {
+                "ANDROID_HOME": "C:\\Users\\TX120\\AppData\\Local\\Android\\Sdk"
+            }
+        }
+    ]
+}

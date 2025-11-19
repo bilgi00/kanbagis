@@ -1,0 +1,131 @@
+{
+    "name": "Bir Damla Kan - Hayat Kurtaran Platform",
+    "short_name": "Bir Damla Kan",
+    "description": "Kan bağışı ve talep platformu. Kan ihtiyacı olanlar ile bağışçıları buluşturan güvenli platform. Acil kan taleplerini takip edin, kan bağışında bulunun.",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#E53935",
+    "theme_color": "#E53935",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "scope": "/",
+    "categories": ["health", "medical", "social", "utilities"],
+    "lang": "tr",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "icons/Icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Kan Talepleri",
+            "short_name": "Talepler",
+            "description": "Acil kan taleplerini görüntüle",
+            "url": "/#/blood-requests",
+            "icons": [
+                {
+                    "src": "icons/Icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Hastaneler",
+            "short_name": "Hastaneler",
+            "description": "Yakındaki hastaneleri bul",
+            "url": "/#/hospitals",
+            "icons": [
+                {
+                    "src": "icons/Icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Kan Uyumluluğu",
+            "short_name": "Uyumluluk",
+            "description": "Kan grubu uyumluluğunu kontrol et",
+            "url": "/#/compatibility",
+            "icons": [
+                {
+                    "src": "icons/Icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "screenshots/desktop-home.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Ana Sayfa - Kan Talepleri"
+        },
+        {
+            "src": "screenshots/mobile-home.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "platform": "narrow",
+            "label": "Mobil Ana Sayfa"
+        }
+    ]
+}
