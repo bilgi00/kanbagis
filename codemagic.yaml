@@ -1,25 +1,41 @@
 workflows:
-  ios-simulator:
-    name: iOS Simulator Build
+  ios_build:
+    name: "Build iOS IPA & Simulator APP"
     max_build_duration: 60
+
     environment:
       flutter: stable
       xcode: latest
-      cocoapods: default
 
     scripts:
-      - name: Flutter dependencies
+      # ─────────────────────────────────────────
+      # Flutter Get
+      # ─────────────────────────────────────────
+      - name: "Flutter pub get"
         script: |
           flutter pub get
 
-      - name: Build iOS Simulator App
+      # ─────────────────────────────────────────
+      # Build iOS IPA for real device
+      # ─────────────────────────────────────────
+      - name: "Build iOS IPA (release)"
+        script: |
+          flutter build ipa --release
+
+      # ─────────────────────────────────────────
+      # Build iOS Simulator APP (.app)
+      # ─────────────────────────────────────────
+      - name: "Build iOS Simulator APP"
         script: |
           flutter build ios --debug --simulator
 
     artifacts:
-      - build/ios/iphonesimulator/*.app
+      - build/ios/ipa/*.ipa                       # iPhone için IPA
+      - build/ios/Debug-iphonesimulator/*.app     # Simulator için .app
 
     publishing:
       email:
         recipients:
-          - bilgi@example.com
+          - "your-email@example.com"
+
+
